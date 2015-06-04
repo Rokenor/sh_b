@@ -10,13 +10,10 @@
 .info {
 	position: relative;
 	display: inline-block;
-
 	width: 240px;
 	height: 290px;
-
 	padding: 80px 40px 30px;
 	vertical-align: top;
-	
 	background: #d82318;
 
 	@media (max-width: 760px) {
@@ -46,7 +43,6 @@
 	&__bottom {
 		position: absolute;
 		display: block;
-
 		bottom: 30px;	
 	}
 	&__link {
@@ -64,7 +60,6 @@
 	position: relative;
 	display: inline-block;
 	width: 640px;
-
 	padding: 30px 0 20px 0;
 
 	@media (max-width: 760px) {
@@ -96,11 +91,10 @@
 .social {
 	position: relative;
 	display: inline-block;
-
 	width: 280px;
 	vertical-align: top;
-
 	padding: 30px 0 0 40px;
+	
 	&__title {
 		font-family: ProximaNovaSemibold, serif;
 		font-size: 14px;
