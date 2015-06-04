@@ -1,7 +1,13 @@
-.header {
+.header {	
 	display: block;
 	position: relative;
+	padding: 30px 0;
 	&__logo {
 		display: block;
+		width: 100px;
+		height: 30px;
+
+		background: url('../img/logo.png') 0 0 no-repeat;
+		background-size: 100% 100%;
 	}
 }

@@ -88,7 +88,7 @@ html, body {
 .container {
   position: relative;
   display: block;
-  width: 1200px;
+  width: 960px;
   margin: 0 auto;
 }
 
@@ -96,15 +96,170 @@ html, body {
 .header {
   display: block;
   position: relative;
+  padding: 30px 0;
 }
-/* line 4, ../sass/_header.scss */
+/* line 5, ../sass/_header.scss */
 .header__logo {
   display: block;
+  width: 100px;
+  height: 30px;
+  background: url("../img/logo.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+/* line 1, ../sass/_footer.scss */
+.footer {
+  position: relative;
+  display: block;
+  border-top: 1px solid #ededed;
+  padding: 20px 0 25px;
+  margin-top: 50px;
+}
+/* line 7, ../sass/_footer.scss */
+.footer__logo {
+  position: relative;
+  float: left;
+  width: 50px;
+  height: 10px;
+  background: url("../img/flogo.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+  margin-right: 17px;
+}
+/* line 16, ../sass/_footer.scss */
+.footer__copy {
+  font-size: 12px;
+  color: #b2b2b2;
 }
 
 /* line 1, ../sass/_index.scss */
+.poster {
+  position: relative;
+  display: inline-block;
+  width: 640px;
+}
+/* line 5, ../sass/_index.scss */
+.poster img {
+  width: 640px;
+  height: 400px;
+}
+
+/* line 10, ../sass/_index.scss */
 .info {
   position: relative;
+  display: inline-block;
+  width: 240px;
+  height: 290px;
+  padding: 80px 40px 30px;
+  vertical-align: top;
+  background: #d82318;
+}
+/* line 21, ../sass/_index.scss */
+.info__title {
+  font-family: ProximaNovaBlack, serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* line 27, ../sass/_index.scss */
+.info__separator {
+  position: relative;
   display: block;
-  background: #ff0000;
+  width: 40px;
+  height: 1px;
+  background: #ffffff;
+  margin: 20px 0;
+}
+/* line 35, ../sass/_index.scss */
+.info__description {
+  font-family: ProximaNova, serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+/* line 41, ../sass/_index.scss */
+.info__bottom {
+  position: absolute;
+  display: block;
+  bottom: 30px;
+}
+/* line 47, ../sass/_index.scss */
+.info__link {
+  font-family: ProximaNova, serif;
+  font-size: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+/* line 53, ../sass/_index.scss */
+.info__link:hover {
+  text-decoration: none;
+}
+
+/* line 58, ../sass/_index.scss */
+.features {
+  position: relative;
+  display: inline-block;
+  width: 640px;
+  padding: 30px 0 20px 0;
+}
+/* line 64, ../sass/_index.scss */
+.features__title {
+  font-family: ProximaNovaLight, serif;
+  font-size: 28px;
+  line-height: 32px;
+  color: #1a1a1a;
+  text-transform: uppercase;
+}
+/* line 71, ../sass/_index.scss */
+.features__list {
+  position: relative;
+  display: block;
+  margin-top: 5px;
+}
+/* line 76, ../sass/_index.scss */
+.features__item {
+  font-family: ProximaNova, serif;
+  font-size: 12px;
+  line-height: 24px;
+  color: #666666;
+}
+
+/* line 86, ../sass/_index.scss */
+.social {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  vertical-align: top;
+  padding: 30px 0 0 40px;
+}
+/* line 94, ../sass/_index.scss */
+.social__title {
+  font-family: ProximaNovaSemibold, serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+/* line 101, ../sass/_index.scss */
+.social__fb {
+  position: relative;
+  float: left;
+  width: 135px;
+  height: 40px;
+  background: url("../img/appstore.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+/* line 110, ../sass/_index.scss */
+.social__gp {
+  position: relative;
+  float: left;
+  width: 135px;
+  height: 40px;
+  background: url("../img/googleplay.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+/* line 121, ../sass/_index.scss */
+.social__ico + .social__ico {
+  margin-left: 10px;
 }

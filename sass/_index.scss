@@ -1,15 +1,123 @@
+.poster {
+	position: relative;
+	display: inline-block;
+	width: 640px;
+	img {
+		width: 640px;
+		height: 400px;
+	}
+}
 .info {
 	position: relative;
-	display: block;
+	display: inline-block;
+
+	width: 240px;
+	height: 290px;
+
+	padding: 80px 40px 30px;
+	vertical-align: top;
 	
-	background: #ff0000;
+	background: #d82318;
 	&__title {
-		
+		font-family: ProximaNovaBlack, serif;
+		font-size: 36px;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+	&__separator {
+		position: relative;
+		display: block;
+		width: 40px;
+		height: 1px;
+		background: #ffffff;
+		margin: 20px 0;
 	}
 	&__description {
-		
+		font-family: ProximaNova, serif;
+		font-size: 14px;
+		line-height: 24px;
+		color: #ffffff;
+	}
+	&__bottom {
+		position: absolute;
+		display: block;
+
+		bottom: 30px;	
 	}
 	&__link {
-		
+		font-family: ProximaNova, serif;
+		font-size: 10px;
+		color: #ffffff;
+		text-transform: uppercase;
+		margin-right: 20px;
+		&:hover {
+			text-decoration: none;
+		}
 	}
+}
+.features {
+	position: relative;
+	display: inline-block;
+	width: 640px;
+
+	padding: 30px 0 20px 0;
+	&__title {
+		font-family: ProximaNovaLight, serif;
+		font-size: 28px;
+		line-height: 32px;
+		color: #1a1a1a;
+		text-transform: uppercase;
+	}
+	&__list {
+		position: relative;
+		display: block;
+		margin-top: 5px;
+	}
+	&__item {
+		font-family: ProximaNova, serif;
+		font-size: 12px;
+		line-height: 24px;
+		color: #666666;
+		span {
+
+		}
+	}
+}
+.social {
+	position: relative;
+	display: inline-block;
+
+	width: 280px;
+	vertical-align: top;
+
+	padding: 30px 0 0 40px;
+	&__title {
+		font-family: ProximaNovaSemibold, serif;
+		font-size: 14px;
+		line-height: 16px;
+		color: #1a1a1a;
+		margin-bottom: 10px;
+	}
+	&__fb {
+		position: relative;
+		float: left;
+		width: 135px;
+		height: 40px;
+
+		background: url('../img/appstore.png') 0 0 no-repeat;
+		background-size: 100% 100%;
+	}
+	&__gp {
+		position: relative;
+		float: left;
+		width: 135px;
+		height: 40px;
+
+		background: url('../img/googleplay.png') 0 0 no-repeat;
+		background-size: 100% 100%;
+	}
+}
+
+.social__ico + .social__ico {
+	margin-left: 10px;
 }
