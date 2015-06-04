@@ -91,6 +91,12 @@ html, body {
   width: 960px;
   margin: 0 auto;
 }
+@media (max-width: 760px) {
+  /* line 22, ../sass/_common.scss */
+  .container {
+    width: 640px;
+  }
+}
 
 /* line 1, ../sass/_header.scss */
 .header {
@@ -153,14 +159,20 @@ html, body {
   vertical-align: top;
   background: #d82318;
 }
-/* line 21, ../sass/_index.scss */
+@media (max-width: 760px) {
+  /* line 10, ../sass/_index.scss */
+  .info {
+    width: auto;
+  }
+}
+/* line 26, ../sass/_index.scss */
 .info__title {
   font-family: ProximaNovaBlack, serif;
   font-size: 36px;
   text-transform: uppercase;
   color: #ffffff;
 }
-/* line 27, ../sass/_index.scss */
+/* line 32, ../sass/_index.scss */
 .info__separator {
   position: relative;
   display: block;
@@ -169,20 +181,20 @@ html, body {
   background: #ffffff;
   margin: 20px 0;
 }
-/* line 35, ../sass/_index.scss */
+/* line 40, ../sass/_index.scss */
 .info__description {
   font-family: ProximaNova, serif;
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
 }
-/* line 41, ../sass/_index.scss */
+/* line 46, ../sass/_index.scss */
 .info__bottom {
   position: absolute;
   display: block;
   bottom: 30px;
 }
-/* line 47, ../sass/_index.scss */
+/* line 52, ../sass/_index.scss */
 .info__link {
   font-family: ProximaNova, serif;
   font-size: 10px;
@@ -190,19 +202,25 @@ html, body {
   text-transform: uppercase;
   margin-right: 20px;
 }
-/* line 53, ../sass/_index.scss */
+/* line 58, ../sass/_index.scss */
 .info__link:hover {
   text-decoration: none;
 }
 
-/* line 58, ../sass/_index.scss */
+/* line 63, ../sass/_index.scss */
 .features {
   position: relative;
   display: inline-block;
   width: 640px;
   padding: 30px 0 20px 0;
 }
-/* line 64, ../sass/_index.scss */
+@media (max-width: 760px) {
+  /* line 63, ../sass/_index.scss */
+  .features {
+    padding: 30px 0 20px 40px;
+  }
+}
+/* line 74, ../sass/_index.scss */
 .features__title {
   font-family: ProximaNovaLight, serif;
   font-size: 28px;
@@ -210,13 +228,13 @@ html, body {
   color: #1a1a1a;
   text-transform: uppercase;
 }
-/* line 71, ../sass/_index.scss */
+/* line 81, ../sass/_index.scss */
 .features__list {
   position: relative;
   display: block;
   margin-top: 5px;
 }
-/* line 76, ../sass/_index.scss */
+/* line 86, ../sass/_index.scss */
 .features__item {
   font-family: ProximaNova, serif;
   font-size: 12px;
@@ -224,7 +242,7 @@ html, body {
   color: #666666;
 }
 
-/* line 86, ../sass/_index.scss */
+/* line 96, ../sass/_index.scss */
 .social {
   position: relative;
   display: inline-block;
@@ -232,7 +250,7 @@ html, body {
   vertical-align: top;
   padding: 30px 0 0 40px;
 }
-/* line 94, ../sass/_index.scss */
+/* line 104, ../sass/_index.scss */
 .social__title {
   font-family: ProximaNovaSemibold, serif;
   font-size: 14px;
@@ -240,7 +258,7 @@ html, body {
   color: #1a1a1a;
   margin-bottom: 10px;
 }
-/* line 101, ../sass/_index.scss */
+/* line 111, ../sass/_index.scss */
 .social__fb {
   position: relative;
   float: left;
@@ -249,7 +267,7 @@ html, body {
   background: url("../img/appstore.png") 0 0 no-repeat;
   background-size: 100% 100%;
 }
-/* line 110, ../sass/_index.scss */
+/* line 120, ../sass/_index.scss */
 .social__gp {
   position: relative;
   float: left;
@@ -259,7 +277,7 @@ html, body {
   background-size: 100% 100%;
 }
 
-/* line 121, ../sass/_index.scss */
+/* line 131, ../sass/_index.scss */
 .social__ico + .social__ico {
   margin-left: 10px;
 }

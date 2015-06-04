@@ -18,6 +18,11 @@
 	vertical-align: top;
 	
 	background: #d82318;
+
+	@media (max-width: 760px) {
+		width: auto;
+	}
+
 	&__title {
 		font-family: ProximaNovaBlack, serif;
 		font-size: 36px;
@@ -61,6 +66,11 @@
 	width: 640px;
 
 	padding: 30px 0 20px 0;
+
+	@media (max-width: 760px) {
+		padding: 30px 0 20px 40px;
+	}
+
 	&__title {
 		font-family: ProximaNovaLight, serif;
 		font-size: 28px;
